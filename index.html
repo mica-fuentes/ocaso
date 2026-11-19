@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OCASO — tragos de verano en lata</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="meter" aria-hidden="true"><i></i><b id="meterSun"></b></div>
+<main>
+
+<section id="exp" aria-label="Los cuatro tragos de Ocaso">
+<div class="stage">
+  <div class="layer hero-bg" id="heroBg"><div class="hero-sun"></div></div>
+  <div class="layer wipe mani" id="mani">
+    <svg class="crest" viewBox="0 0 1600 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0 100V56Q100 16 200 56T400 56T600 56T800 56T1000 56T1200 56T1400 56T1600 56V100Z" fill="#A7DDF3"/></svg>
+    <div class="mani-clip"><div class="mani-grad" id="maniGrad"></div></div>
+  </div>
+  <div class="layer" id="scenes"></div>
+  <h1 class="word" id="word"><span>OCASO</span></h1>
+  <div class="can-pos" id="canPos"><div class="can-in" id="canIn"><div class="can-sw" id="canSw">
+    <img data-can="spritz" alt="Lata de Ocaso Spritz">
+    <img data-can="tinto" alt="Lata de Ocaso Tinto de verano">
+    <img data-can="blue" alt="Lata de Ocaso Blue lagoon">
+    <img data-can="pina" alt="Lata de Ocaso Piña colada">
+  </div></div></div>
+  <div class="grid">
+    <div class="hero-ui" id="heroUI">
+      <p>Cuatro tragos de verano. Cada uno, su propio atardecer.</p>
+      <span class="hint">Scrolleá</span>
+    </div>
+    <p class="mani-txt d" id="maniTxt">La hora más linda del día no se toma apurada.</p>
+    <div class="copy" id="copy"></div>
+    <div class="notes" id="notes">
+      <div class="note"><p class="eb">La marca</p><p>OCASO en vertical, condensada, igual en las cuatro latas.</p></div>
+      <div class="note"><p class="eb">El horizonte</p><p>Cada etiqueta parte la lata en cielo y mar a la misma altura.</p></div>
+      <div class="note"><p class="eb">El sol</p><p>Cambia de color con el trago, siempre en el mismo lugar.</p></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="gal" id="galeria" aria-labelledby="galH">
+  <div class="gal-pin">
+    <div class="gal-track" id="galTrack">
+      <header class="gal-intro">
+        <p class="eb">En la playa</p>
+        <h2 class="d" id="galH">Un trago para cada luz</h2>
+        <p>Cuatro momentos de la misma tarde, del primer reflejo a la última luz.</p>
+      </header>
+      <figure class="shot"><img decoding="async" loading="lazy" src="img/foto-spritz.webp" width="376" height="627" alt="Mano sosteniendo una lata de Ocaso Spritz frente al mar, con el sol bajo"><figcaption><span class="n">Spritz</span><span class="mo">Sol alto, primer reflejo</span></figcaption></figure>
+      <figure class="shot"><img decoding="async" loading="lazy" src="img/foto-tinto.webp" width="373" height="622" alt="Lata de Ocaso Tinto de verano apoyada en la rodilla, con el sol tocando el mar"><figcaption><span class="n">Tinto de verano</span><span class="mo">El sol toca el agua</span></figcaption></figure>
+      <figure class="shot"><img decoding="async" loading="lazy" src="img/foto-blue.webp" width="373" height="622" alt="Persona en la orilla con una lata de Ocaso Blue lagoon y el cielo violeta"><figcaption><span class="n">Blue lagoon</span><span class="mo">Media luz violeta</span></figcaption></figure>
+      <figure class="shot"><img decoding="async" loading="lazy" src="img/foto-pina.webp" width="376" height="627" alt="Mano con una lata de Ocaso Piña colada sobre una lona a rayas"><figcaption><span class="n">Piña colada</span><span class="mo">La última luz del día</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="ritual g12" aria-labelledby="ritH">
+  <header><p class="eb">Cómo se toma</p><h2 class="d" id="ritH">El ritual</h2></header>
+  <ol class="steps">
+    <li><span class="ico" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M32 8v48M11.2 20l41.6 24M11.2 44l41.6-24M26 12l6 6 6-6M26 52l6-6 6 6M10 27l8-3-2-8M54 37l-8 3 2 8M10 37l8 3-2 8M54 27l-8-3 2-8"/></svg></span><span class="num">01</span><h3 class="d">Enfriala.</h3></li>
+    <li><span class="ico" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M20 22c0-3 5-5 12-5s12 2 12 5v30c0 3-5 5-12 5s-12-2-12-5z"/><path d="M20 22c0 3 5 5 12 5s12-2 12-5"/><path d="M29 21.5h6M32 14V6M28 10l4-4 4 4"/></svg></span><span class="num">02</span><h3 class="d">Abrila.</h3></li>
+    <li><span class="ico" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M6 42h52M16 42a16 16 0 0 1 32 0M32 14v-6M14 22l-4-4M50 22l4-4M12 50h40M20 57h24"/></svg></span><span class="num">03</span><h3 class="d">Mirá el horizonte.</h3></li>
+  </ol>
+</section>
+
+<section class="arma" id="arma" aria-labelledby="armaH">
+  <div class="layer arma-bg" id="armaBg"></div>
+  <div class="g12 arma-in">
+    <header>
+      <p class="eb">Probalo</p>
+      <h2 class="d" id="armaH">Armá tu atardecer</h2>
+      <p>Tocá una lata y cambiá el cielo.</p>
+    </header>
+    <p class="arma-name d" id="armaName" aria-live="polite">Spritz</p>
+    <div class="picker" role="group" aria-label="Elegí un trago" id="picker"></div>
+  </div>
+</section>
+
+<section class="pack g12" aria-labelledby="packH">
+  <div class="pack-art" aria-hidden="true">
+    <div class="pack-sun"></div>
+    <div class="pack-cans" id="packCans">
+      <img data-can="spritz" alt=""><img data-can="tinto" alt=""><img data-can="blue" alt=""><img data-can="pina" alt="">
+    </div>
+  </div>
+  <div class="pack-txt">
+    <p class="eb">Pack x4</p>
+    <h2 class="d" id="packH">Los cuatro atardeceres</h2>
+    <p>Una lata de cada trago, para probarlos todos este verano.</p>
+    <a class="btn" href="#donde" id="packBtn">Quiero el pack</a>
+  </div>
+</section>
+
+<section class="end" id="donde" aria-labelledby="endH">
+  <h2 class="end-h d" id="endH">Dónde encontrarla</h2>
+  <ul class="places">
+    <li><b>Paradores</b>Costa atlántica, de diciembre a marzo.</li>
+    <li><b>Almacenes y vinotecas</b>En la ciudad, en la heladera de siempre.</li>
+    <li><b>Tienda online</b>Packs de 4 latas, uno de cada atardecer.</li>
+  </ul>
+  <div class="row" id="row"></div>
+  <footer class="foot">
+    <div class="sunset" id="footSun" aria-hidden="true"></div>
+    <div class="sea" aria-hidden="true"></div>
+    <div class="bar"><strong>OCASO</strong><span>Marca ficticia · proyecto de portfolio</span></div>
+  </footer>
+</section>
+
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
